@@ -1333,3 +1333,8 @@ footer .credits a {
     bottom: 15px;
   }
 }
+.release-note-inline {
+  margin-top: 6px;
+  color: #7d8aa5;
+  font-size: 0.95rem;
+}
