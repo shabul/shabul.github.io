@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#FAF6EF">
+  <title>Photos – Shabul Hussain Abdul | Shabul Amazon | Shabul JPMorgan Chase</title>
+  <meta name="description" content="Photo gallery of Shabul Hussain Abdul — Senior Data Scientist at JPMorgan Chase, ex-Amazon engineer, AI Evangelist. Also known as Shabul Abdul, Shabul Amazon, Shabul JPMorgan Chase, Shabul JPMC.">
+  <meta name="keywords" content="Shabul, Shabul Abdul, Shabul Hussain, Shabul Hussain Abdul, Shabul Amazon, Shabul JPMorgan, Shabul JPMorgan Chase, Shabul JPMC">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://shabul.github.io/photos.html">
+
+  <meta property="og:title" content="Photos – Shabul Hussain Abdul">
+  <meta property="og:description" content="Photo gallery of Shabul Hussain Abdul – Senior Data Scientist at JPMorgan Chase and ex-Amazon engineer.">
+  <meta property="og:image" content="https://shabul.github.io/img/Shabul-Hussain-Abdul-2024.jpeg">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="https://shabul.github.io/photos.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Photos – Shabul Hussain Abdul">
+  <meta name="twitter:image" content="https://shabul.github.io/img/Shabul-Hussain-Abdul-2024.jpeg">
+
+  <link rel="icon" href="img/favicon-Shabul-Hussain-Abdul.png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon-Shabul-Hussain-Abdul.png">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Shabul Hussain Abdul",
+      "alternateName": ["Shabul Abdul", "Shabul Hussain", "Shabul Amazon", "Shabul JPMorgan", "Shabul JPMC"],
+      "jobTitle": "Senior Data Scientist",
+      "worksFor": { "@type": "Organization", "name": "JPMorgan Chase" },
+      "url": "https://shabul.github.io",
+      "image": "https://shabul.github.io/img/Shabul-Hussain-Abdul-2024.jpeg"
+    }
+  }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --black:  #0A0A0A;
+      --yellow: #FFD60A;
+      --cream:  #FAF6EF;
+      --white:  #FFFFFF;
+      --border: #0A0A0A;
+      --text-2: #555;
+      --shadow: 4px 4px 0 var(--black);
+    }
+
+    body {
+      font-family: 'Space Grotesk', sans-serif;
+      background: var(--cream);
+      color: var(--black);
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    /* ── NAV ── */
+    .nav {
+      position: sticky; top: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 24px; height: 56px;
+      background: var(--yellow);
+      border-bottom: 2px solid var(--border);
+    }
+    .nav-logo {
+      font-weight: 700; font-size: 1.05rem;
+      text-decoration: none; color: var(--black);
+      letter-spacing: -0.02em;
+    }
+    .nav-logo .hl {
+      background: var(--black); color: var(--yellow);
+      padding: 1px 6px;
+    }
+    .nav-back {
+      font-size: 0.85rem; font-weight: 600;
+      text-decoration: none; color: var(--black);
+      border: 2px solid var(--black);
+      padding: 4px 14px;
+      transition: background .15s, color .15s;
+    }
+    .nav-back:hover { background: var(--black); color: var(--yellow); }
+
+    /* ── HERO ── */
+    .page-hero {
+      background: var(--white);
+      border-bottom: 2px solid var(--border);
+      padding: 56px 24px 48px;
+      text-align: center;
+    }
+    .page-hero .label {
+      display: inline-block;
+      font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em;
+      text-transform: uppercase;
+      border: 2px solid var(--black);
+      padding: 3px 10px; margin-bottom: 16px;
+    }
+    .page-hero h1 {
+      font-size: clamp(2.4rem, 8vw, 4.5rem);
+      font-weight: 700; letter-spacing: -0.04em; line-height: 0.95;
+      margin-bottom: 16px;
+    }
+    .page-hero h1 .hl {
+      background: var(--yellow); padding: 2px 10px 6px;
+    }
+    .page-hero p {
+      font-size: 0.95rem; color: var(--text-2);
+      max-width: 520px; margin: 0 auto; line-height: 1.6;
+    }
+
+    /* ── GRID ── */
+    .section { padding: 56px 24px; max-width: 1100px; margin: 0 auto; }
+
+    .photos-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .photo-card {
+      border: 2px solid var(--border);
+      background: var(--white);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform .15s, box-shadow .15s;
+    }
+    .photo-card:hover {
+      transform: translate(-2px, -2px);
+      box-shadow: 6px 6px 0 var(--black);
+    }
+    .photo-card img {
+      width: 100%; height: 260px;
+      object-fit: cover; display: block;
+    }
+    .photo-card .card-cap {
+      padding: 10px 12px;
+      font-size: 0.78rem; font-weight: 600;
+      border-top: 2px solid var(--border);
+      background: var(--cream);
+    }
+
+    /* ── LIGHTBOX ── */
+    .lightbox {
+      display: none; position: fixed; inset: 0; z-index: 999;
+      background: rgba(0,0,0,.92);
+      flex-direction: column; align-items: center; justify-content: center;
+    }
+    .lightbox.active { display: flex; }
+    .lightbox-img {
+      max-width: 90vw; max-height: 80vh;
+      object-fit: contain;
+      border: 3px solid var(--yellow);
+    }
+    .lightbox-caption {
+      margin-top: 14px; color: #fff;
+      font-size: 0.85rem; font-weight: 500;
+      max-width: 600px; text-align: center;
+    }
+    .lb-close {
+      position: absolute; top: 20px; right: 24px;
+      background: var(--yellow); border: 2px solid var(--black);
+      font-size: 1.1rem; font-weight: 700; cursor: pointer;
+      width: 38px; height: 38px; display: flex; align-items: center; justify-content: center;
+    }
+    .lb-prev, .lb-next {
+      position: absolute; top: 50%; transform: translateY(-50%);
+      background: var(--yellow); border: 2px solid var(--black);
+      font-size: 1.4rem; font-weight: 700; cursor: pointer;
+      width: 44px; height: 44px; display: flex; align-items: center; justify-content: center;
+    }
+    .lb-prev { left: 16px; }
+    .lb-next { right: 16px; }
+
+    /* ── FOOTER ── */
+    .footer {
+      border-top: 2px solid var(--border);
+      background: var(--black); color: var(--yellow);
+      text-align: center; padding: 24px;
+      font-size: 0.82rem; font-weight: 600;
+    }
+    .footer a { color: var(--yellow); }
+
+    @media (max-width: 600px) {
+      .photos-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px; }
+      .photo-card img { height: 180px; }
+      .lb-prev { left: 6px; }
+      .lb-next { right: 6px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <a class="nav-logo" href="index.html"><span class="hl">Shabul</span> Hussain</a>
+    <a class="nav-back" href="index.html">← Back</a>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <span class="label">Shots</span>
+    <h1><span class="hl">Shabul</span><br>Hussain Abdul</h1>
+    <p>Senior Data Scientist at <strong>JPMorgan Chase</strong> · Ex-<strong>Amazon</strong> · AI Evangelist · Bengaluru & Hyderabad</p>
+  </div>
+
+  <!-- GRID -->
+  <div class="section">
+    <div class="photos-grid" id="grid">
+
+      <div class="photo-card" data-src="img/Shabul-Hussain-Abdul-2024.jpeg" data-caption="Shabul Hussain Abdul – Official Portrait" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/Shabul-Hussain-Abdul-2024.jpeg" alt="Shabul Hussain Abdul official portrait photo" width="1024" height="1024" loading="eager" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Official Portrait</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-office-window-striped-polo-smiling.jpg" data-caption="Shabul Hussain Abdul – Office Portrait" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-office-window-striped-polo-smiling.jpg" alt="Shabul Hussain Abdul smiling at office window" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Office Portrait</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-professional-headshot-blazer.jpg" data-caption="Shabul Hussain Abdul – Professional Headshot" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-professional-headshot-blazer.jpg" alt="Shabul Hussain Abdul professional headshot in navy blazer" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Professional Headshot</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-portrait-bokeh-background.jpg" data-caption="Shabul Hussain Abdul – Portrait" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-portrait-bokeh-background.jpg" alt="Shabul Hussain Abdul portrait with bokeh background" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Portrait</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-close-up-portrait-pink-kurta.jpg" data-caption="Shabul Hussain – Close-Up Portrait" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-close-up-portrait-pink-kurta.jpg" alt="Shabul Hussain close-up portrait" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Close-Up Portrait</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-restaurant-name-overlay.jpg" data-caption="Shabul – Name Overlay" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-restaurant-name-overlay.jpg" alt="Shabul Hussain Abdul restaurant photo with SHABUL name overlay" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Shabul – Name Overlay</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-jpmorgan-chase-office-thinking.jpg" data-caption="Shabul Hussain Abdul at JPMorgan Chase" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-jpmorgan-chase-office-thinking.jpg" alt="Shabul Hussain Abdul deep in thought at JPMorgan Chase office with MacBook and coffee" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">JPMorgan Chase · Deep Work</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-jpmorgan-chase-tech-talk-presenting.jpg" data-caption="Shabul Hussain Abdul – JPMorgan Chase Tech Talk" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-jpmorgan-chase-tech-talk-presenting.jpg" alt="Shabul Hussain presenting tech talk at JPMorgan Chase JPMC" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">JPMorgan Chase · Tech Talk</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-amazon-presenting-podium.jpg" data-caption="Shabul Hussain Abdul – Speaking at Amazon" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-amazon-presenting-podium.jpg" alt="Shabul Hussain Abdul presenting at Amazon podium" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Amazon · Speaking</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-amazon-office-presentation-podium.jpg" data-caption="Shabul Hussain Abdul – Amazon Presentation" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-amazon-office-presentation-podium.jpg" alt="Shabul Hussain Abdul presenting at Amazon office" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Amazon · Presentation</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-amazon-analyticon-apac-2025.jpg" data-caption="Shabul Hussain Abdul – Amazon AnalytiCON APAC 2025" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-amazon-analyticon-apac-2025.jpg" alt="Shabul Hussain Abdul at Amazon AnalytiCON APAC 2025" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Amazon AnalytiCON APAC 2025</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-amazon-amaze-in-tech-conference.jpg" data-caption="Shabul Hussain – Amazon AMAZE-IN TECH" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-amazon-amaze-in-tech-conference.jpg" alt="Shabul Hussain at Amazon AMAZE-IN TECH conference" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Amazon · AMAZE-IN TECH</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-amazon-fulfillment-center-tour.jpg" data-caption="Shabul Hussain Abdul – Amazon Fulfillment Center" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-amazon-fulfillment-center-tour.jpg" alt="Shabul Hussain Abdul visiting Amazon fulfillment center" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Amazon · Fulfillment Center</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-amazon-office-building-exterior.jpg" data-caption="Shabul Hussain – Outside Amazon Office" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-amazon-office-building-exterior.jpg" alt="Shabul Hussain standing outside Amazon office building" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Amazon · Office Exterior</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-amazon-arrow-logo-lobby.jpg" data-caption="Shabul Hussain – Amazon Lobby" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-amazon-arrow-logo-lobby.jpg" alt="Shabul Hussain next to Amazon arrow logo in lobby" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Amazon · Office Lobby</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-amazon-logo-overhead-shot.jpg" data-caption="Shabul Hussain – Amazon Overhead Shot" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-amazon-logo-overhead-shot.jpg" alt="Shabul Hussain overhead shot over Amazon logo" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Amazon · Overhead Creative</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-amazon-webml-macbook-coding.jpg" data-caption="Shabul Hussain – WebML · Coding" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-amazon-webml-macbook-coding.jpg" alt="Shabul Hussain coding on MacBook with WebML sticker at office window" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">WebML · Coding at Office</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-amazon-contact-profile-card.jpg" data-caption="Shabul Abdul – Amazon Contact Profile" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-amazon-contact-profile-card.jpg" alt="Shabul Abdul Amazon contact profile card" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Shabul Abdul · Contact Profile</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-id-card-shabul-abdul.jpg" data-caption="Shabul Abdul – ID Card" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-id-card-shabul-abdul.jpg" alt="Shabul Abdul official ID card" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Shabul Abdul · ID Card</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-google-io-connect-bengaluru-seated.jpg" data-caption="Shabul Hussain – Google I/O Connect Bengaluru" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-google-io-connect-bengaluru-seated.jpg" alt="Shabul Hussain seated at Google IO Connect Bengaluru" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Google I/O Connect · Bengaluru</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-google-io-connect-bengaluru-standing.jpg" data-caption="Shabul Hussain – Google I/O Connect Bengaluru" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-google-io-connect-bengaluru-standing.jpg" alt="Shabul Hussain standing at Google IO Connect Bengaluru" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Google I/O Connect · Bengaluru</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-google-io-connect-bengaluru-banner.jpg" data-caption="Shabul Hussain – Hello Bengaluru Banner" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-google-io-connect-bengaluru-banner.jpg" alt="Shabul Hussain at Google IO Connect Hello Bengaluru banner" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Google I/O Connect · Hello Bengaluru</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-google-io-connect-aerial-view.jpg" data-caption="Shabul Hussain – Google I/O Connect Aerial" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-google-io-connect-aerial-view.jpg" alt="Shabul Hussain aerial view at Google IO Connect triangular installation" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Google I/O Connect · Aerial Shot</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-google-io-bengaluru-i-am-here.jpg" data-caption="Shabul Hussain – I Am Here Bengaluru" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-google-io-bengaluru-i-am-here.jpg" alt="Shabul Hussain at Google IO Connect I am here Bengaluru wall" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Google I/O Connect · I Am Here</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-google-io-connect-welcome-gate.jpg" data-caption="Shabul Hussain – Google I/O Connect Welcome Gate" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-google-io-connect-welcome-gate.jpg" alt="Shabul Hussain at Google IO Connect welcome entrance gate" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Google I/O Connect · Welcome Gate</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-google-io-connect-bengaluru-blue-board.jpg" data-caption="Shabul Hussain – Google I/O Connect Blue Board" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-google-io-connect-bengaluru-blue-board.jpg" alt="Shabul Hussain at Google IO Connect Bengaluru blue board" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Google I/O Connect · Bengaluru</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-google-io-auto-rickshaw-installation.jpg" data-caption="Shabul Hussain – Google I/O Connect Auto Rickshaw" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-google-io-auto-rickshaw-installation.jpg" alt="Shabul Hussain with auto rickshaw installation at Google IO Connect" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Google I/O Connect · Auto Rickshaw</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-google-io-connect-event-crowd.jpg" data-caption="Shabul Hussain – Google I/O Connect Event" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-google-io-connect-event-crowd.jpg" alt="Shabul Hussain at Google IO Connect event with Filmbaker crew" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Google I/O Connect · Event</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-gateway-of-india-mumbai.jpg" data-caption="Shabul Hussain Abdul – Gateway of India, Mumbai" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-gateway-of-india-mumbai.jpg" alt="Shabul Hussain Abdul at Gateway of India Mumbai" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Gateway of India · Mumbai</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-smiling-neon-crown-logo.jpg" data-caption="Shabul Hussain – Neon Crown Wall" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-smiling-neon-crown-logo.jpg" alt="Shabul Hussain smiling in front of neon crown logo wall" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Neon Crown Wall</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-restaurant-casual-pink-polo.jpg" data-caption="Shabul Hussain – Casual" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-restaurant-casual-pink-polo.jpg" alt="Shabul Hussain relaxed at restaurant in pink polo" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Casual · Restaurant</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-restaurant-sunglasses-chandelier.jpg" data-caption="Shabul Hussain – Sunglasses & Chandelier" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-restaurant-sunglasses-chandelier.jpg" alt="Shabul Hussain wearing sunglasses under grand chandelier" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Luxury Restaurant</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-niloufer-cafe-hyderabad-night.jpg" data-caption="Shabul Hussain – Cafe Niloufer, Hyderabad" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-niloufer-cafe-hyderabad-night.jpg" alt="Shabul Hussain outside Cafe Niloufer Hyderabad at night" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Cafe Niloufer · Hyderabad</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-community-event-with-leader.jpg" data-caption="Shabul Hussain – Community Event" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-community-event-with-leader.jpg" alt="Shabul Hussain at community event with local leader" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Community Event</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-political-networking-event.jpg" data-caption="Shabul Hussain – Political Networking" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-political-networking-event.jpg" alt="Shabul Hussain at political networking event" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Political Networking Event</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-mirror-selfie-blue-tshirt.jpg" data-caption="Shabul Hussain – Mirror Selfie" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-mirror-selfie-blue-tshirt.jpg" alt="Shabul Hussain mirror selfie in blue t-shirt" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Mirror Selfie</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-car-selfie-glasses.jpg" data-caption="Shabul Hussain – Car Selfie" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-car-selfie-glasses.jpg" alt="Shabul Hussain casual selfie in car with glasses" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Car Selfie</div>
+      </div>
+
+      <div class="photo-card" data-src="img/seo-photos/shabul-hussain-mirror-selfie-turquoise-shirt.jpg" data-caption="Shabul Hussain – Mirror Selfie" itemscope itemtype="https://schema.org/ImageObject">
+        <img src="img/seo-photos/shabul-hussain-mirror-selfie-turquoise-shirt.jpg" alt="Shabul Hussain mirror selfie in turquoise shirt" loading="lazy" itemprop="contentUrl">
+        <div class="card-cap" itemprop="description">Mirror Selfie · Turquoise</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+    <button class="lb-close" id="lbClose" aria-label="Close">✕</button>
+    <button class="lb-prev"  id="lbPrev"  aria-label="Previous">‹</button>
+    <button class="lb-next"  id="lbNext"  aria-label="Next">›</button>
+    <img class="lightbox-img" id="lbImg" src="" alt="">
+    <p class="lightbox-caption" id="lbCap"></p>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 <strong>Shabul Hussain Abdul</strong> · <a href="index.html">shabul.github.io</a></p>
+  </footer>
+
+  <script>
+    const cards = [...document.querySelectorAll('.photo-card')];
+    const lb    = document.getElementById('lightbox');
+    const lbImg = document.getElementById('lbImg');
+    const lbCap = document.getElementById('lbCap');
+    let cur = 0;
+
+    function openLb(i) {
+      cur = i;
+      lbImg.src = cards[i].dataset.src;
+      lbImg.alt = cards[i].dataset.caption;
+      lbCap.textContent = cards[i].dataset.caption;
+      lb.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeLb() {
+      lb.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    cards.forEach((c, i) => c.addEventListener('click', () => openLb(i)));
+    document.getElementById('lbClose').addEventListener('click', closeLb);
+    document.getElementById('lbPrev').addEventListener('click', () => openLb((cur - 1 + cards.length) % cards.length));
+    document.getElementById('lbNext').addEventListener('click', () => openLb((cur + 1) % cards.length));
+    lb.addEventListener('click', e => { if (e.target === lb) closeLb(); });
+    document.addEventListener('keydown', e => {
+      if (!lb.classList.contains('active')) return;
+      if (e.key === 'Escape')     closeLb();
+      if (e.key === 'ArrowLeft')  openLb((cur - 1 + cards.length) % cards.length);
+      if (e.key === 'ArrowRight') openLb((cur + 1) % cards.length);
+    });
+  </script>
+
+</body>
+</html>
