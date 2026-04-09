@@ -1,0 +1,33 @@
+# Shabul Hussain Abdul — Personal Portfolio
+
+> Senior Data Scientist at JPMorgan Chase | AI & Machine Learning Expert | Amazon 2024 Worldwide Innovista Winner
+
+## About
+
+Shabul Hussain Abdul is a Senior Data Scientist at JPMorgan Chase with 7+ years of experience in machine learning and data science. Based in Hyderabad and Bengaluru, India.
+
+## Expertise
+
+- LLM Product Strategy: Fine-tuning, curation, and governance of large language models at enterprise scale
+- Generative AI Programs: Agentic workflows, retrieval systems, RAG pipelines, and AI copilots
+- Applied AI Platforms: AWS SageMaker, ECS, Lambda, Bedrock stacks with automated governance
+- Automation Strategy: ML-driven automation delivering 30%+ productivity gains
+- Product & Science Leadership: Bridging applied science, engineering, and UX for production AI systems
+- Insights & Experimentation: Rigorous A/B testing, narrative analytics, CX instrumentation
+
+## Achievements
+
+- Amazon 2024 Worldwide Innovista Winner
+- Speaker at Google I/O Connect 2023 and 2025 (Bengaluru)
+- Speaker at Amazon AnalyticCon Hyderabad
+- 12 end-to-end ML solutions built
+- 11 worldwide marketplaces served
+- 14 workshops delivered
+- M.Tech from SASTRA University
+
+## Contact
+
+- Email: abdul.shabul@outlook.com
+- LinkedIn: https://www.linkedin.com/in/shabul
+- GitHub: https://github.com/shabul
+- Website: https://shabul.github.io
